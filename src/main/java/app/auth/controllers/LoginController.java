@@ -5,8 +5,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoginController {
 
-  @GetMapping("/login")
+  @GetMapping("/ping")
   public String loginUser() {
-    return "Request Prueba";
+    return "pong";
   }
+
+  // @GetMapping("/user")
+  // public String getUserData(){
+ 
+  // }
 }
