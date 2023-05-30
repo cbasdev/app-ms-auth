@@ -1,4 +1,4 @@
-package app.auth.repository.interfaces;
+// package app.auth.repository.interfaces;
 
-public interface IUserRepository {
-}
+// public interface IUserRepository {
+// }
